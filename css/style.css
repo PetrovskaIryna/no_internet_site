@@ -1,0 +1,22 @@
+body {
+  background-color: rgba(0, 162, 255, 0.404);
+  height: 100hv;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container {
+  background-color: yellow;
+  width: 300px;
+  height: 300px;
+  border: 3px solid #ffccff65;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px #0a0369b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container:hover {
+  box-shadow: 15px 15px 25px #b3b607;
+}
